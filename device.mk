@@ -325,7 +325,9 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResCommon \
     OPlusSystemUIResCommon \
     OPlusSystemUIResTarget \
-    WifiResTarget
+    WifiResTarget\
+    OPlusSettingsResTarget  \
+    OPlusExtrasResTarget
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
@@ -340,7 +342,7 @@ PRODUCT_PACKAGES += \
     android.hardware.power@1.2.vendor \
     vendor.qti.hardware.perf@2.2.vendor
 
-# Preopt SystemUI    
+# Preopt SystemUI
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     Settings \
     SystemUI
